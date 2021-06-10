@@ -16,7 +16,7 @@ The function should:
 */
 
 function createMenuItem(/*Your code here*/){
-    /*Your code here*/
+    /*Your code*/
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
