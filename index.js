@@ -78,7 +78,7 @@ const reviews = [
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
-
+console.log('Task 3: ',reviews[5].feedback);
 
 
 
@@ -88,6 +88,13 @@ Using the reviews array above do the following: (no function needed)
   2. log the whole array to the console, make sure the new review is inside of it   
 */
 
+const reviewsCopy = [...reviews];
+
+const newReview = {name: 'David', rating: 4.5, feedback: "Overall a good experience, but service was very slow."}
+
+reviewsCopy.unshift(newReview);
+
+console.log('Task 4',reviewsCopy);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -96,7 +103,9 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
   2. log the reviews array to the console to check your work
 */
 
+reviews[7].feedback = "this place is chill with really cool people, great for getting work done on weekdays";
 
+console.log('task 5',reviews);
 
 
 
